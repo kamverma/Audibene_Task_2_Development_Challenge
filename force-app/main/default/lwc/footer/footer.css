@@ -1,0 +1,19 @@
+.footer {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #fff;
+}
+
+.cart {
+    display: flex;
+    color: #0070D2;
+}
+
+.cart svg {
+    margin-right: 10px;
+}

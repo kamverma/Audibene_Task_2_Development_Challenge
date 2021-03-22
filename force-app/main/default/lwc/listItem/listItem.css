@@ -1,0 +1,18 @@
+.t-head {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+td {
+    padding: 5px 10px; 
+    border-bottom: 1px solid #ccc; 
+    background: #fff; 
+  }
+
+th {
+    padding: 5px 10px;
+}
+
+.add-btn {
+    margin-right: 5px;
+}

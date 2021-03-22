@@ -1,0 +1,29 @@
+<template>
+    <table>
+        <tr class="t-head">
+            <th></th>
+            <th>Manufacturer</th>
+            <th>Product Name</th>
+            <th>Design</th>
+            <th>Level</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
+        <tr for:each={details} for:item="detail" key={detail.id} class="t-body">
+            <td class="id">{detail.id}</td>
+            <td class="manufacturer">{detail.manufacturer}</td>
+            <td class="productName">{detail.productName}</td>
+            <td class="design">{detail.design}</td>
+            <td class="level">{detail.level}</td>
+            <td class="price">&euro; {detail.price}</td>
+            <td>
+                <button class="slds-button slds-button_neutral slds-button_stateful slds-is-selected-clicked" aria-live="assertive">
+                <span class="slds-text-selected">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="add-btn" width="15px" height="15px" fill="#0070D2" viewBox="0 0 52 52" id="check"><path d="M19.1 42.5L2.6 25.9c-.6-.6-.6-1.6 0-2.2l2.2-2.2c.6-.6 1.6-.6 2.2 0L19.4 34c.4.4 1.1.4 1.5 0L45.2 9.5c.6-.6 1.6-.6 2.2 0l2.2 2.2c.6.6.6 1.6 0 2.2L21.3 42.5c-.6.7-1.6.7-2.2 0z"></path></svg>
+                    Add to order
+                </span>
+            </button>
+            </td>
+        </tr>
+    </table>
+</template>

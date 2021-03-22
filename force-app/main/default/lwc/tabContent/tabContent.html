@@ -1,0 +1,22 @@
+<template>
+    <lightning-layout>
+        <lightning-layout-item class="container">
+            <div class="search-component">
+                <div class="search-box">
+                    <div class="slds-form-element">
+                        <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_left">
+                            <lightning-icon size="x-small" class="slds-icon slds-input__icon slds-input__icon_left slds-icon-text-default" icon-name="utility:search"></lightning-icon>
+                            <input type="text" id="text-input-id-1" class="slds-input" />
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <lightning-button variant="brand" label="Search" title="Primary action" class="slds-m-left_x-small"></lightning-button>
+                </div>
+            </div>
+        </lightning-layout-item>
+    </lightning-layout>
+    <div class="list-item-container">
+        <c-list-item></c-list-item>
+    </div>
+</template>
